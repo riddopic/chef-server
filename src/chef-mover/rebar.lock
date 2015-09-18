@@ -169,4 +169,9 @@
  {<<"webmachine">>,
   {git,"git://github.com/basho/webmachine",
        {ref,"7677c240f4a7ed020f4bab48278224966bb42311"}},
-  1}].
+  1},
+{<<"sync">>,
+  {git,"https://github.com/rustyio/sync.git",
+       {ref,"ae7dbd4e6e2c08d77d96fc4c2bc2b6a3b266492b"}},
+  0}
+].
