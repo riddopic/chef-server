@@ -39,7 +39,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 6.0'
   gem 'rails-controller-testing'
   gem 'pry-byebug'
-  gem 'mailcatcher'
+  gem 'mailcatcher', '>= 0.10.0'
 end
 
 group :development do
