@@ -8,7 +8,7 @@ group :omnibus do
 end
 
 group :test do
-  gem 'test-kitchen' # for Test Kitchen testing of the omnibus builds
-  gem 'berkshelf' # depsolving the Test Kitchen suite
+  gem 'test-kitchen' , '>= 3.5.0' # for Test Kitchen testing of the omnibus builds
+  gem 'berkshelf' , '>= 8.0.7' # depsolving the Test Kitchen suite
   gem 'rake'
 end
